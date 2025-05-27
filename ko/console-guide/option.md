@@ -30,8 +30,6 @@ Cloud Access를 운영중 발생된 트래픽 로그를 원격지로 자동 전�
 
 !!! tip 알아두기
 
-    * 로그 원격 전송 기능을 사용하지 않을 경우, 트래픽 로그는 최대 7일 또는 50,000건까지 저장되며, 둘 중 하나의 조건이 중촉되면 가장 오래된 로그부터 순차적으로 삭제(덮어쓰기) 됩니다.
-        * 장기간 로그 보관 보관이 필요한 경우 로그 원격 전송 기능 사용을 권장합니다.
     * Syslog는 단일 IP 주소만 설정할 수 있으며, IP 범위 또는 대역은 지원하지 않습니다.
     * Object Storage 및 Log & Crash Search로 로그를 전송하려면, 해당 서비스가 사전에 활성화 되어 있어야 합니다. 
     * Object Storage 설정에 필요한 입력 정보는 [사용자 가이드](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/s3-api-guide/#aws-sdk)를 참고하세요.
