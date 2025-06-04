@@ -2,13 +2,11 @@
 
 **Security > Cloud Access > 콘솔 사용 가이드 > Cloud Access 시작하기**
 
-Cloud Access 서비스를 사용하기 위한 에이전트 다운로드와 인스턴스 접속을 위한 터널 연결 설정을 알아봅니다.
-
 <br>
 
 ## 에이전트 다운로드
 
-먼저 Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 서비스에서 지원하는 운영제제 대상은 아래와 같습니다.
+Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 서비스에서 지원하는 운영제제 대상은 아래와 같습니다.
 
 * Windows 10 1903 이상(32bit/64bit)
 * Windows 11 (64bit)
