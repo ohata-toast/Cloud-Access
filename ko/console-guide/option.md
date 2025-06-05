@@ -10,23 +10,25 @@
 
 ### 기본 차단정책 로그 설정
 
-Cloud Access 서비스를 활성화 하면 **[정책 - ACL 정책]** 탭에 default-deny 정책이 노출되며, **사용**으로 설정할 경우 해당 정책에 매칭되는 차단 로그가 저장됩니다.
+Cloud Access 서비스를 활성화 하면 **정책 - ACL 정책** 탭에 default-deny 정책이 노출되며, **사용**으로 설정할 경우 해당 정책에 매칭되는 차단 로그가 저장됩니다.
 
 ### 로그 원격전송 설정
 
-Cloud Access를 운영중 발생된 트래픽 로그를 원격지로 자동 전송하고 장기간 보관할 수 있도록 Syslog, Object Storage, Log & Crash Search를 통한 원격 전송 기능을 제공합니다.
+Cloud Access를 운영중 발생된 트래픽 로그를 원격지로 자동 전송하여 장기간 보관할 수 있도록 Syslog, Object Storage, Log & Crash Search를 통한 원격 전송 기능을 제공합니다.
 
-* Syslog: 최대 2개의 IP 주소를 입력하여 트래픽 로그를 전송
+* Syslog: 최대 2개의 IP 주소를 입력하여 트래픽 로그를 전송합니다.
 
-(사진 삽입)
+![syslog.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/syslog.png)
 
 * Object Storage: NHN Cloud에서 제공하는 Object Storage 서비스로 로그를 전송
 
-(사진 삽입)
+![OBS.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/OBS.png)
 
 * Log & Crash Search: NHN Cloud에서 제공하는 Log & Crash Search 서비스로 로그를 전송
 
-(사진 삽입)
+![LNCS.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/LNCS.png)
+
+<br>
 
 !!! tip 알아두기
 
@@ -40,10 +42,8 @@ Cloud Access를 운영중 발생된 트래픽 로그를 원격지로 자동 전�
 
 ### 연결 설정
 
-* 연결 설정에서는 Cloud Access 서비스 활성화 시 입력한 정보를 확인할 수 있으며, 이 중 고객 이름과 암호화 알고리즘은 변경이 가능합니다.
-    * 암호화 알고리즘은 AES-256과 ChaCha20을 지원합니다.
-
-(사진 삽임)
+* 연결 설정에서는 Cloud Access 서비스 활성화 시 입력한 정보를 확인할 수 있으며, 이 중 고객 이름과 알고리즘은 변경 가능합니다.
+    * 알고리즘은 AES-256과 ChaCha20을 지원합니다.
 
 ### 로그인 보안 설정
 
@@ -58,22 +58,21 @@ Cloud Access를 운영중 발생된 트래픽 로그를 원격지로 자동 전�
 ### 안내 설정
 
 * 안내 설정에서는 사용자가 에이전트를 통해 인증 시 표시할 안내 문구를 설정할 수 있습니다.
-    * 안내 문구는 최대 200자까지 입력할 수 있습니다.
+    * 안내 문구는 최대 200자까지 입력 가능합니다.
 
 ### 로고 설정
 
 * 로고 설정에서는 사용자의 법인 로고 등 지정된 조건에 맞는 이미지를 업로드하여 로그인 인증 화면에 로고를 표시할 수 있습니다.
 
-(로고가 삽입된 이미지 삽입)
-
+<br>
 
 !!! tip 알아두기
 
-    * 연결 설정 항목 중 고객 키와 비밀 키는 사용자가 에이전트 연결 추가 시 사용하는 정보입니다. 외부에 유출되지 않도록 유의하세요.
+    * 연결 설정 항목 중 도메인과 고객 키, 그리고 비밀 키는 사용자가 에이전트 연결 추가 시 사용하는 정보입니다. 외부에 유출되지 않도록 유의하세요.
     * 로그인 실패 또는 비밀번호 만료로 인해 계정이 잠긴 경우 Cloud Access 서비스 권한이 있는 NHN Cloud 콘솔 관리자에게 문의하세요.
-    * 설정한 안내 문구는 로그인 후에도 트레이 아이콘 기능을 통해 확인할 수 있습니다.
+    * 안내 문구는 로그인 후에도 트레이 아이콘 기능을 통해 확인할 수 있습니다.
 
 !!! danger 주의
 
-    * 로그인 보안 설정은 Cloud Access 에이전트를 사용하는 모든 사용자에게 적용되므로 사용 설정 시 주의하세요.
+    * 로그인 보안 설정은 Cloud Access 에이전트를 사용하는 모든 사용자에게 공통 적용되므로 사용 설정 시 주의하세요.
 
