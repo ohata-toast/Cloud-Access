@@ -101,3 +101,9 @@
 
 **삭제**를 클릭해 사용자 정책을 삭제할 수 있습니다.
 
+<br>
+
+!!! tip 알아두기
+    * 백신은 윈도우 기준 Security Center의 displayname을 등록하여 검사할 수 있습니다.
+        * displayname은 파워쉘 커맨드로 확인 가능합니다.
+        * 명령어: Get-WmiObject -Namespace "root\SecurityCenter2" -Class AntiVirusProduct
