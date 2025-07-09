@@ -2,7 +2,7 @@
 
 **Security > Cloud Access > 콘솔 사용 가이드 > 설정**
 
-**설정** 탭에서는 Cloud Access 운영에 필요한 여러가지 설정을 할 수 있습니다.
+**설정** 탭에서는 Cloud Access 운영에 필요한 여러 가지 설정을 할 수 있습니다.
 
 <br>
 
@@ -10,21 +10,21 @@
 
 ### 기본 차단정책 로그 설정
 
-Cloud Access 서비스를 활성화 하면 **정책 - ACL 정책** 탭에 default-deny 정책이 노출되며, **사용**으로 설정할 경우 해당 정책에 매칭되는 차단 로그가 저장됩니다.
+Cloud Access 서비스를 활성화하면 **정책 - ACL 정책** 탭에 default-deny 정책이 노출되며, **사용**으로 설정할 경우 해당 정책에 매칭되는 차단 로그가 저장됩니다.
 
 ### 로그 원격전송 설정
 
-Cloud Access를 운영중 발생된 트래픽 로그를 원격지로 자동 전송하여 장기간 보관할 수 있도록 Syslog, Object Storage, Log & Crash Search를 통한 원격 전송 기능을 제공합니다.
+Cloud Access 운영 중 발생된 트래픽 로그를 원격지로 자동 전송하여 장기간 보관할 수 있도록 Syslog, Object Storage, Log & Crash Search를 통한 원격 전송 기능을 제공합니다.
 
 * Syslog: 최대 2개의 IP 주소를 입력하여 트래픽 로그를 전송합니다.
 
 ![syslog.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/syslog.png)
 
-* Object Storage: NHN Cloud에서 제공하는 Object Storage 서비스로 로그를 전송
+* Object Storage: NHN Cloud에서 제공하는 Object Storage 서비스로 로그를 전송합니다.
 
 ![OBS.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/OBS.png)
 
-* Log & Crash Search: NHN Cloud에서 제공하는 Log & Crash Search 서비스로 로그를 전송
+* Log & Crash Search: NHN Cloud에서 제공하는 Log & Crash Search 서비스로 로그를 전송합니다.
 
 ![LNCS.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/LNCS.png)
 
@@ -33,8 +33,8 @@ Cloud Access를 운영중 발생된 트래픽 로그를 원격지로 자동 전�
 !!! tip 알아두기
 
     * Syslog는 단일 IP 주소만 설정할 수 있으며, IP 범위 또는 대역은 지원하지 않습니다.
-    * Object Storage 및 Log & Crash Search로 로그를 전송하려면, 해당 서비스가 사전에 활성화 되어 있어야 합니다. 
-    * Object Storage 설정에 필요한 입력 정보는 [사용자 가이드](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/s3-api-guide/#aws-sdk)를 참고하세요.
+    * Object Storage 및 Log & Crash Search로 로그를 전송하려면, 해당 서비스가 사전에 활성화되어 있어야 합니다. 
+    * Object Storage 설정에 필요한 입력 정보는 [Object Storage 사용자 가이드](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/s3-api-guide/#aws-sdk)를 참고하세요.
 
 <br>
 
@@ -49,9 +49,9 @@ Cloud Access를 운영중 발생된 트래픽 로그를 원격지로 자동 전�
 
 * 로그인 보안 설정에서는 로그인 실패 횟수, 비밀번호 만료 기간, 비밀번호 정책을 설정할 수 있습니다.
     * 로그인 실패: 사용자가 인증을 시도할 때 허용되는 최대 실패 횟수를 설정합니다. 
-        * 최소 1회부터 최대 5회 까지 설정할 수 있습니다.
+        * 최소 1회부터 최대 5회까지 설정할 수 있습니다.
     * 비밀번호 만료: 계정 생성 후 비밀번호의 유효 기간을 설정합니다.
-        * 최소 1일에서 최대 180일 까지 설정 가능합니다.
+        * 최소 1일에서 최대 180일까지 설정 가능합니다.
     * 비밀번호 정책: 에이전트를 통해 접속하는 사용자의 비밀번호 생성 기준을 설정합니다.
         * 일부 필수 정책은 설정 여부와 관계없이 자동으로 적용됩니다. 
 
@@ -62,7 +62,7 @@ Cloud Access를 운영중 발생된 트래픽 로그를 원격지로 자동 전�
 
 ### 로고 설정
 
-* 로고 설정에서는 사용자의 법인 로고 등 지정된 조건에 맞는 이미지를 업로드하여 로그인 인증 화면에 로고를 표시할 수 있습니다.
+* 로고 설정에서는 사용자의 법인 로고 등 정해진 조건에 맞는 이미지를 업로드하여 로그인 인증 화면에 로고를 표시하도록 설정할 수 있습니다.
 
 <br>
 
