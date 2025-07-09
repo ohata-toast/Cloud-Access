@@ -50,7 +50,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 
 * Windows 10 1903 이상(32bit/64bit)
 * Windows 11(64bit)
-* macOS 14.0 이상
+* macOS 13.3 이상
 
 ### [Windows 다운로드(64bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_6b5ee6a5d2584600b5ffd3330de1846b/windows/installer/CloudAccess_Setup_x64.exe)
 
