@@ -9,7 +9,7 @@
 로그인 후 인스턴스에 접속하려면 아래 설정을 추가해야 합니다.
 
 * 라우트 설정
-    * 자세한 내용은 [콘솔 가이드 - 시작하기](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-guide/cloud-access-start/)를 참고하세요.
+    * 자세한 내용은 [콘솔 사용 가이드 - 시작하기](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-guide/cloud-access-start/)를 참고하세요.
 * ACL 정책 설정
     * 내부 인스턴스에 접근 시 적용되는 접근 제어 정책입니다. **ACL 정책** 탭에서 IP를 허용해야 합니다.
 * Security Groups 설정
