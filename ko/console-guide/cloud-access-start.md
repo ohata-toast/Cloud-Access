@@ -16,6 +16,8 @@
 
 ![setting_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/setting_1.png)
 
+<img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/1.png" height="60%" />
+
 * VPC와 서브넷을 선택합니다.
     * 만약, VPC와 서브넷이 없을 경우 **Network** 카테고리에서 먼저 생성하세요.
 * 고객 이름을 입력합니다.
@@ -66,13 +68,13 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 
 에이전트를 사용하여 nhn cloud 리소스에 접속하기 위해 연결항목을 추가합니다.
 
-![conncetion_add_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/connection_add_1.png)
+<img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/4.png" height="60%" />
 
 ➊ 도메인 주소, ➋ 고객 키, ➌ 비밀 키를 NHN Cloud 콘솔 권한을 가진 사용자에게 전달받아 입력합니다. 
 
 <br>
 
-![conncetion_add_3.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/connection_add_3.png)
+<img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/5.png" height="60%" />
 
 ➍ 검증 버튼을 클릭 시 검증이 완료되면 ➎ 고객 이름을 확인할 수 있고, 추가 버튼을 클릭해 연결을 추가합니다.
 
@@ -100,7 +102,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 
 ### 1차 인증 (계정 및 비밀번호)
 
-![login_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/login_1.png)
+<img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/6.png" height="60%" />
 
 * 계정명: Cloud Access 서비스 권한을 가진 관리자에게 생성받은 계정을 입력합니다.
 * 비밀번호: 계정 생성 요청 시 입력한 메일주소로 수신받은 임시 비밀번호를 입력합니다.
