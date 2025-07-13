@@ -14,8 +14,6 @@
 
 연결 설정 정보를 입력합니다. 정보를 저장한 뒤 Cloud Access를 사용할 수 있습니다.
 
-![setting_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/setting_1.png)
-
 <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/1.png" height="60%" />
 
 * VPC와 서브넷을 선택합니다.
@@ -52,7 +50,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 
 * Windows 10 1903 이상(32bit/64bit)
 * Windows 11 (64bit)
-* macOS 12.0 이상
+* macOS 13.3 이상
 
 ### [Windows 다운로드(64bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_6b5ee6a5d2584600b5ffd3330de1846b/windows/installer/CloudAccess_Setup_x64.exe)
 
@@ -68,13 +66,13 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 
 에이전트를 사용하여 nhn cloud 리소스에 접속하기 위해 연결항목을 추가합니다.
 
-<img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/4.png" height="60%" />
+<img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/add_1.png" height="60%" />
 
 ➊ 도메인 주소, ➋ 고객 키, ➌ 비밀 키를 NHN Cloud 콘솔 권한을 가진 사용자에게 전달받아 입력합니다. 
 
 <br>
 
-<img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/5.png" height="60%" />
+<img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/add_2.png" height="60%" />
 
 ➍ 검증 버튼을 클릭 시 검증이 완료되면 ➎ 고객 이름을 확인할 수 있고, 추가 버튼을 클릭해 연결을 추가합니다.
 
