@@ -14,7 +14,7 @@ After preparing the agent, configure the connection settings and routing to star
 
 Enter and save the connection settings. Once saved, Cloud Access becomes available.
 
-![setting_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/setting_1.png)
+![setting_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/setting_1.png)
 
 * Select a VPC and subnet.
     * If you don't have a VPC or subnet, create them via the **VPC** and **Subnet** menus in the NHN Cloud console.
@@ -66,13 +66,13 @@ Download the agent to use Cloud Access. The service supports the following OS:
 
 Add a connection item to access NHN Cloud resources via the agent.
 
-![conncetion_add_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/connection_add_1.png)
+![conncetion_add_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/add_1.png)
 
 ➊ Enter the domain address, ➋ customer key, and ➌ secret key, provided by a user with NHN Cloud console permissions.
 
 <br>
 
-![conncetion_add_3.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/connection_add_3.png)
+![conncetion_add_3.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/add_2.png)
 
 ➍ Click the "Verify" button. Once verified, ➎ the customer name will be shown. Click "Add" to complete the connection.
 
@@ -100,7 +100,7 @@ Select the required connection and click **Connect** to proceed with authenticat
 
 ### First Authentication (Account & Password)
 
-![login_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/login_1.png)
+![login_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/6.png)
 
 * Account ID: Enter the account received from the administrator.
 * Password: Enter the temporary password sent to your registered email.
