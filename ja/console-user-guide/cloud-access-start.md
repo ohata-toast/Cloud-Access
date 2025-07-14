@@ -14,7 +14,7 @@
 
 接続設定情報を入力して保存します。保存後、Cloud Accessを使用できます。
 
-![setting_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/setting_1.png)
+![setting_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/setting_1.png)
 
 * VPCとサブネットを選択します。
     * VPCやサブネットがない場合は、NHN Cloudコンソールの**VPC**または**Subnet**メニューから作成してください。
@@ -52,11 +52,11 @@ Cloud Accessサービスを利用するためのエージェントをダウン�
 * Windows 11(64bit)
 * macOS 13.3以上
 
-### [Windows版ダウンロード(64bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_6b5ee6a5d2584600b5ffd3330de1846b/windows/installer/CloudAccess_Setup_x64.exe)
+### [Windows版ダウンロード(64bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)
 
-### [Windows版ダウンロード(32bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_6b5ee6a5d2584600b5ffd3330de1846b/windows/installer/CloudAccess_Setup_x86.exe)
+### [Windows版ダウンロード(32bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)
 
-### [macOS版ダウンロード](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_6b5ee6a5d2584600b5ffd3330de1846b/macos/CloudAccess%20Installer%20v0.0.1-5309-DEV.dmg)
+### [macOS版ダウンロード](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer%20v0.9.0-5326.dmg)
 
 <br>
 
@@ -66,14 +66,14 @@ Cloud Accessサービスを利用するためのエージェントをダウン�
 
 NHN Cloudリソースに接続するための項目を追加します。
 
-![conncetion_add_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/connection_add_1.png)
+![conncetion_add_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/add_1.png)
 
 ➊ ドメイン、➋ 顧客キー、➌ 秘密キーをNHN Cloudコンソールの権限を持つユーザーから受け取り入力します。
 
 <br>
 
-![conncetion_add_3.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/connection_add_3.png)
-
+![conncetion_add_3.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/add_2.png)
+ 
 ➍ 「検証」ボタンをクリックし、検証完了後、➎ 顧客名が表示されます。その後、「追加」をクリックして接続を完了します。
 
 ### 接続の削除
@@ -100,7 +100,7 @@ NHN Cloudリソースに接続するための項目を追加します。
 
 ### 第1段階認証（アカウントとパスワード）
 
-![login_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/login_1.png)
+![login_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/6.png)
 
 * アカウント名：管理者から発行されたアカウントを入力します。
 * パスワード：メールで届いた初期パスワードを入力します。
