@@ -35,7 +35,7 @@
 
 <br>
 
-!!! danger 주의
+!!! danger "주의"
     * 설정 정보 저장 전 선택한 VPC에 인터넷 게이트웨이가 연결되어 있는지 확인하세요.
         * 인터넷 게이트웨이가 연결되어 있지 않으면 Cloud Access를 사용할 수 없습니다.
     * 사용자 IP 할당 대역은 아래의 항목과 겹칠 수 없습니다.
@@ -52,11 +52,11 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 * Windows 11(64bit)
 * macOS 13.3 이상
 
-### [Windows 다운로드(64bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_6b5ee6a5d2584600b5ffd3330de1846b/windows/installer/CloudAccess_Setup_x64.exe)
+### [Windows 다운로드(64bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)
 
-### [Windows 다운로드(32bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_6b5ee6a5d2584600b5ffd3330de1846b/windows/installer/CloudAccess_Setup_x86.exe)
+### [Windows 다운로드(32bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)
 
-### [macOS 다운로드](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_6b5ee6a5d2584600b5ffd3330de1846b/macos/CloudAccess%20Installer%20v0.0.1-5309-DEV.dmg)
+### [macOS 다운로드](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer%20v0.9.0-5325.dmg)
 
 <br>
 
@@ -82,7 +82,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 
 <br>
 
-!!! tip 알아두기
+!!! tip "알아두기"
     * 연결 추가에 필요한 값은 NHN Cloud 콘솔 권한을 가진 사용자를 통해 확인할 수 있습니다.
         * 고객 이름은 검증이 완료되면 사용자(관리자)가 입력한 이름으로 자동으로 노출됩니다.
     * 다수의 연결 항목을 추가할 수 있으나 연결은 1개만 가능합니다.
@@ -125,7 +125,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 
 <br>
 
-!!! tip 알아두기
+!!! tip "알아두기"
     * NHN Cloud 콘솔 권한을 가진 관리자가 사용자 계정을 생성하면 등록된 사용자의 이메일 주소로 임시 비밀번호가 발송됩니다.
     * 계정을 생성한 뒤 첫 인증 시에만 개인정보 수집·이용 동의 절차를 진행하며, 계정 연결이 완료되어야만 동의를 득한 것으로 간주합니다(동의 수락을 클릭 후 인증을 완료하지 않고 취소하면 다시 동의를 해야합니다.).
     * 비밀번호 설정 시 관리자가 설정한 비밀번호 정책과 관계없이 아래의 정책은 필수로 적용됩니다.
