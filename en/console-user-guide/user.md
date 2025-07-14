@@ -1,50 +1,50 @@
-# 사용자
+# User
 
-**Security > Cloud Access > 콘솔 사용 가이드 > 사용자**
+**Security > Cloud Access > Console User Guide > User**
 
-**사용자** 탭에서는 에이전트를 설치 후 접속하는 사용자 계정의 정책을 관리합니다.
+In the **User** tab, you can manage the policies for user accounts that connect after installing the agent.
 
 <br>
 
-## 사용자 계정 관리하기
+## Managing User Accounts
 
-### 추가
+### Add
 
-**추가**를 클릭해 사용자의 계정을 추가합니다. 
+Click **Add** to add a user account.
 
 ![user_add_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/user_add_1.png)
 
-* ➊ 기본 설정: 계정명, 휴대폰 번호, 이메일 등 계정을 사용할 사용자의 기본 정보를 입력합니다. 
-* ➋ 계정 설정: 계정에 적용할 정책을 설정합니다.
-    * 계정 상태: 사용자를 추가한 뒤 허용 또는 차단을 설정합니다.
-    * 사설 IP 주소: 사용자가 로그인하면, 설정된 사용자 정책에 따라 자동으로 IP가 할당됩니다.
-    * 사용자 정책: 사용자에게 적용할 정책을 선택합니다. **정책 - 사용자 정책** 탭에서 미리 등록한 정책이 노출됩니다. 
-    * 계정 사용 시간: 하루 24시간 중 사용 가능한 시간을 제한할 수 있습니다(예: 오전 9시~오후 6시).
-    * 계정 유효 기간: 계정을 사용할 수 있는 기간을 설정합니다.
-    * 미사용 계정 잠금: 일정 기간 동안 계정을 사용하지 않으면 자동으로 잠금 처리됩니다.
-    * 접속 허용 IP/MAC 주소: 해당 계정으로 로그인할 수 있는 IP 또는 MAC 주소를 각각 최대 3개까지 지정할 수 있습니다.
+* ➊ Basic Settings: Enter basic information for the user who will use the account, such as account name, mobile phone number, and email. 
+* ➋ Account Settings: Configure the policy to be applied to the account.
+    * Account Status: Set the account to allow or block after adding the user.
+    * Private IP Address: When the user logs in, an IP is automatically assigned according to the user policy.
+    * User Policy: Select the policy to apply to the user. Pre-registered policies are shown in the **Policy - User Policy** tab. 
+    * Account Usage Time: You can restrict the available time within 24 hours (e.g., 9:00 AM–6:00 PM).
+    * Account Validity Period: Set the duration the account can be used.
+    * Inactive Account Lock: If the account is not used for a certain period, it will be automatically locked.
+    * Allowed IP/MAC Addresses: You can specify up to three IP or MAC addresses that can log in using the account.
 
-### 수정
+### Edit
 
-**수정**을 클릭해 사용자의 계정을 수정합니다.
+Click **Edit** to modify the user account.
 
-### 삭제
+### Delete
 
-**삭제**를 클릭해 사용자의 계정을 삭제합니다.
+Click **Delete** to delete the user account.
 
-### 부가 기능
+### Additional Features
 
-* 템플릿 내려받기: 일괄 등록 시 필요한 템플릿 파일을 다운로드합니다.
-* 사용자 일괄 등록: 다운로드한 템플릿을 사용하여 사용자를 한 번에 일괄 등록할 수 있습니다.
+* Download Template: Download the template file required for bulk registration.
+* Bulk Register Users: Register multiple users at once using the downloaded template file.
 
 ![user_add_2.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/user_add_2.png)
 
-➊: 파일 업로드: 파일 선택 버튼을 클릭해 파일을 업로드합니다.
-➋: 오류 데이터 노출: 업로드 한 파일의 데이터를 검증한 뒤 오류가 있는 데이터를 보여줍니다.
+➊: File Upload: Click the file selection button to upload a file.
+➋: Display Error Data: After verifying the uploaded file, displays any data with errors.
 
-* 사용자 일괄 내려받기: **사용자** 탭에 생성되어 있는 사용자 전체 리스트를 한 번에 다운로드할 수 있습니다.
+* Bulk Download Users: Download the full list of users created in the **User** tab at once.
 
 <br>
 
-!!! danger 주의
-    * 인증 시 필요한 정보는 입력한 휴대폰 번호와 이메일 주소로 발송되므로 정보 입력 시 정확하게 입력하세요.
+!!! danger "Caution"
+    * The information required for authentication is sent to the entered mobile phone number and email address, so please enter the information accurately.

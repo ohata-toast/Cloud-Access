@@ -55,11 +55,11 @@
 
 <br>
 
-!!! tip 알아두기
+!!! tip "알아두기"
     * 복사된 ACL 정책은 비활성화됩니다. 복사 후 **수정** 버튼을 클릭해 정책을 활성화하세요.
     * 생성된 ACL 정책은 default-deny 정책 아래로는 이동할 수 없습니다.
 
-!!! danger 주의
+!!! danger "주의"
     * 한번 삭제한 ACL 정책은 복구할 수 없습니다. 삭제 시 주의하세요.
     * default-deny 정책은 삭제할 수 없습니다.
 
@@ -103,7 +103,7 @@
 
 <br>
 
-!!! tip 알아두기
+!!! tip "알아두기"
     * 백신은 윈도우 기준 Security Center의 displayname을 등록하여 검사할 수 있습니다.
         * displayname은 PowerShell 커맨드로 확인 가능합니다.
         * 명령어: Get-WmiObject -Namespace "root\SecurityCenter2" -Class AntiVirusProduct
