@@ -34,7 +34,7 @@ Cloud Access를 운영중 발생된 트래픽 로그를 원격지로 자동 전�
 
     * Syslog는 단일 IP 주소만 설정할 수 있으며, IP 범위 또는 대역은 지원하지 않습니다.
     * Object Storage 및 Log & Crash Search로 로그를 전송하려면, 해당 서비스가 사전에 활성화 되어 있어야 합니다. 
-    * Object Storage 설정에 필요한 입력 정보는 [사용자 가이드](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/s3-api-guide/#aws-sdk)를 참고하세요.
+    * Object Storage 설정에 필요한 입력 정보는 [사용자 가이드](https://docs.alpha-nhncloud.com/en/Storage/Object%20Storage/en/s3-api-guide/#aws-sdk)를 참고하세요.
 
 <br>
 
