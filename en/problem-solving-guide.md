@@ -10,7 +10,7 @@
 To access the instance after logging in, please configure the following settings:
 
 * Route Settings
-    * For details, refer to [Console User Guide - Getting Started](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-guide/cloud-access-start/)
+    * For details, refer to [Console User Guide - Getting Started](https://docs.nhncloud.com/en/Security/Cloud%20Access/en/console-user-guide/cloud-access-start/)
 * ACL Policy Settings
     * This is an access control policy applied when accessing internal instances. You must allow the IP in the **ACL Policy** tab.
 * Security Groups Settings
@@ -69,6 +69,5 @@ To use the service in only one region, deactivate the service first, then reacti
 
 !!! tip "If your issue is still not resolved"
     If you followed the troubleshooting guide and your issue persists, please contact the NHN Cloud Customer Center.
-    * [Go to 1:1 Online Inquiry](https://www.nhncloud.com/kr/support/inquiry)
+    * [Go to 1:1 Online Inquiry](https://www.nhncloud.com/kr/support/inquiry?alias=tab16_15)
     * Customer Service: 1588-7967 (Business hours: Mon–Fri 10:00–19:00)
-

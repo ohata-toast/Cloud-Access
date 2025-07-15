@@ -33,7 +33,7 @@ Cloud Accessの運用中に生成されたトラフィックログをSyslog、Ob
 !!! tip "ポイント"
     * Syslogは単一のIPアドレスのみ設定可能で、IP範囲やCIDRはサポートされていません。
     *  Object StorageおよびLog & Crash Searchにログを転送するには、事前にサービスを有効化しておく必要があります。
-    * Object Storage設定に必要な入力情報は [Object Storage ユーザーガイド](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/s3-api-guide/#aws-sdk)を参照してください。
+    * Object Storage設定に必要な入力情報は [Object Storage ユーザーガイド](https://docs.nhncloud.com/ja/Storage/Object%20Storage/ja/s3-api-guide/#aws-sdk)を参照してください。
 
 <br>
 

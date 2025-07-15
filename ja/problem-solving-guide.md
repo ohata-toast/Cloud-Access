@@ -10,7 +10,7 @@
 ログイン後にインスタンスへアクセスするには、以下の設定を追加する必要があります。
 
 * ルート設定
-    * 詳細は [コンソール使用ガイド - はじめに](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-guide/cloud-access-start/)を参照してください。
+    * 詳細は [コンソール使用ガイド - はじめに](https://docs.nhncloud.com/ja/Security/Cloud%20Access/ja/console-user-guide/cloud-access-start/)を参照してください。
 * ACLポリシー設定
     * 내부 인스턴스에 접근 시 적용되는 접근 제어 정책입니다. **ACL 정책** 탭에서 IP를 허용해야 합니다.
     * 内部インスタンスにアクセスする際に適用されるアクセス制御ポリシーです。**ACLポリシー**タブでIPを許可する必要があります。
@@ -69,5 +69,5 @@ Cloud Accessサービスが非アクティブ状態の場合、アカウント�
 
 !!! tip "問題が解決しない場合"
     トラブルシューティングガイドに従っても問題が解決しない場合は、NHN Cloudカスタマーセンターまでお問い合わせください。
-    * [オンライン1:1お問い合わせはこちら](https://www.nhncloud.com/kr/support/inquiry)
+    * [オンライン1:1お問い合わせはこちら](https://www.nhncloud.com/kr/support/inquiry?alias=tab16_15)
     * お問い合わせ電話: 1588-7967（受付時間: 月〜金 10:00〜19:00）
