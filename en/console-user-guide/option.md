@@ -33,7 +33,7 @@ Cloud Access provides remote log transfer features via Syslog, Object Storage, a
 !!! tip "Note"
     * Syslog supports only a single IP address (IP ranges and CIDR blocks are not supported).
     * Object Storage and Log & Crash Search services must be activated in advance to use remote log transfer.
-    * For required input when setting up Object Storage, refer to the [Object Storage User Guide](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/s3-api-guide/#aws-sdk).
+    * For required input when setting up Object Storage, refer to the [Object Storage User Guide](https://docs.nhncloud.com/en/Storage/Object%20Storage/en/s3-api-guide/#aws-sdk).
 
 <br>
 
