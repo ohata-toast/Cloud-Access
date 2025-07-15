@@ -33,7 +33,7 @@ Traffic logs generated during Cloud Access operation can be automatically sent t
 !!! tip "Note"
     * Syslog supports only single IP addresses (IP ranges or CIDR blocks are not supported).
     * Object Storage and Log & Crash Search services must be activated in advance to use remote log transfer.
-    * For required input when setting up Object Storage, refer to the [Object Storage User Guide](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/s3-api-guide/#aws-sdk)를 참고하세요.
+    * For required input when setting up Object Storage, refer to the [Object Storage User Guide](https://docs.nhncloud.com/zh/Storage/Object%20Storage/zh/s3-api-guide/).
 
 <br>
 
