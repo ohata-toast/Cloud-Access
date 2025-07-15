@@ -69,5 +69,5 @@ Cloud Accessサービスが非アクティブ状態の場合、アカウント�
 
 !!! tip "問題が解決しない場合"
     トラブルシューティングガイドに従っても問題が解決しない場合は、NHN Cloudカスタマーセンターまでお問い合わせください。
-    * [オンライン1:1お問い合わせはこちら](https://www.nhncloud.com/kr/support/inquiry)
+    * [オンライン1:1お問い合わせはこちら](https://www.nhncloud.com/kr/support/inquiry?alias=tab16_15)
     * お問い合わせ電話: 1588-7967（受付時間: 月〜金 10:00〜19:00）

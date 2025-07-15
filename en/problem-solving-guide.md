@@ -69,6 +69,5 @@ To use the service in only one region, deactivate the service first, then reacti
 
 !!! tip "If your issue is still not resolved"
     If you followed the troubleshooting guide and your issue persists, please contact the NHN Cloud Customer Center.
-    * [Go to 1:1 Online Inquiry](https://www.nhncloud.com/kr/support/inquiry)
+    * [Go to 1:1 Online Inquiry](https://www.nhncloud.com/kr/support/inquiry?alias=tab16_15)
     * Customer Service: 1588-7967 (Business hours: Mon–Fri 10:00–19:00)
-
