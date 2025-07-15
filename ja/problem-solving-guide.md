@@ -10,7 +10,7 @@
 ログイン後にインスタンスへアクセスするには、以下の設定を追加する必要があります。
 
 * ルート設定
-    * 詳細は [コンソール使用ガイド - はじめに](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-guide/cloud-access-start/)を参照してください。
+    * 詳細は [コンソール使用ガイド - はじめに](https://docs.nhncloud.com/ja/Security/Cloud%20Access/ja/console-user-guide/cloud-access-start/)を参照してください。
 * ACLポリシー設定
     * 내부 인스턴스에 접근 시 적용되는 접근 제어 정책입니다. **ACL 정책** 탭에서 IP를 허용해야 합니다.
     * 内部インスタンスにアクセスする際に適用されるアクセス制御ポリシーです。**ACLポリシー**タブでIPを許可する必要があります。

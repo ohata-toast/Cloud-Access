@@ -10,7 +10,7 @@
 To access the instance after logging in, please configure the following settings:
 
 * Route Settings
-    * For details, refer to [Console User Guide - Getting Started](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-guide/cloud-access-start/)
+    * For details, refer to [Console User Guide - Getting Started](https://docs.nhncloud.com/zh/Security/Cloud%20Access/zh/console-user-guide/cloud-access-start/)
 * ACL Policy Settings
     * This is an access control policy applied when accessing internal instances. You must allow the IP in the **ACL Policy** tab.
 * Security Groups Settings
