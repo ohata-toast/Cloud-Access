@@ -6,7 +6,7 @@ In the **User** tab, you can manage the policies for user accounts that connect 
 
 <br>
 
-## Managing User Accounts
+## Manage User Accounts
 
 ### Add
 
@@ -24,9 +24,9 @@ Click **Add** to add a user account.
     * Inactive Account Lock: If the account is not used for a certain period, it will be automatically locked.
     * Allowed IP/MAC Addresses: You can specify up to three IP or MAC addresses that can log in using the account.
 
-### Edit
+### Modify
 
-Click **Edit** to modify the user account.
+Click **Modify** to modify the user account.
 
 ### Delete
 
@@ -35,16 +35,16 @@ Click **Delete** to delete the user account.
 ### Additional Features
 
 * Download Template: Download the template file required for bulk registration.
-* Bulk Register Users: Register multiple users at once using the downloaded template file.
+* Upload User in Batch: Register multiple users at once using the downloaded template file.
 
 ![user_add_2.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/user_add_2.png)
 
 ➊: File Upload: Click the file selection button to upload a file.
 ➋: Display Error Data: After verifying the uploaded file, displays any data with errors.
 
-* Bulk Download Users: Download the full list of users created in the **User** tab at once.
+* Download User in Batch: Download the full list of users created in the **User** tab at once.
 
 <br>
 
 !!! danger "Caution"
-    * The information required for authentication is sent to the entered mobile phone number and email address, so please enter the information accurately.
+    * The information required for authentication will be sent to the phone number and email address you provide, so please make sure to enter them correctly.
