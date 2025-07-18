@@ -1,9 +1,9 @@
-# Cloud Access リリースノート
+# Cloud Accessリリースノート
 
-**セキュリティ > Cloud Access > リリースノート**
+**Security > Cloud Access > リリースノート**
 
 ## 2025. 07. 15
 
-### Cloud Access 新サービスリリース
+### Cloud Access新規サービスリリース
 
-Cloud Accessは、ゼロトラストセキュリティモデルに基づいて、NHN Cloudリソースへ安全にアクセスできるようにサポートするサービスです。
+Cloud Accessは、ゼロトラストセキュリティモデルに基づき、NHN Cloudのリソースへ安全に接続できるようサポートするサービスです。
