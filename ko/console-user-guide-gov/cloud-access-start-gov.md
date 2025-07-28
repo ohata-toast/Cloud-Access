@@ -28,10 +28,10 @@
 ## 라우트 설정
 
 외부에서 에이전트를 사용해 연결된 사용자가 내부 인스턴스에 접근할 수 있도록 라우트를 설정합니다.
-예를 들어, 사용자 IP 할당 대역은 10.0.0.0/24이고 연결 설정 시 선택한 서브넷은 172.16.0.0/24, 그리고 접근 가능 대역은 172.16.0.0/24일 때 VPC 라우트에 아래와 같은 룰을 추가합니다.
+예를 들어, 사용자 IP 할당 대역은 10.0.0.0/24이고 연결 설정 시 선택한 서브넷은 172.16.0.0/24, 그리고 접근 가능 대역은 172.16.100.0/24일 때 VPC 라우트에 아래와 같은 룰을 추가합니다.
 
 * 대상 CIDR: 10.0.0.0/24
-* 게이트웨이: Virtual_IP 타입의 TRAFFIC_SUBNET_INTERFACE_VIP
+* 게이트웨이: Virtual_IP 타입의 NCAccess_INF_SUB_PORT_VIP
 
 <br>
 
@@ -52,11 +52,11 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 * Windows 11(64bit)
 * macOS 13.3 이상
 
-### [Windows 다운로드(64bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)
-
-### [Windows 다운로드(32bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)
-
-### [macOS 다운로드](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer%20v0.9.0-5326.dmg)
+| 운영체제 | 버전| 파일 | 업데이트 날짜 |
+|--------|------|------|------|
+| Windows(64bit)|1.1.1|[다운로드](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)|2025.08.12|
+| Windows(32bit)|1.1.1|[다운로드](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.08.12|
+|macOS|1.1.1|[다운로드](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer%20v0.9.0-5326.dmg)|2025.08.12|
 
 <br>
 
@@ -68,7 +68,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 
 ![conncetion_add_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/add_1.png)
 
-➊ 도메인 주소, ➋ 고객 키, ➌ 비밀 키를 NHN Cloud 콘솔 권한을 가진 사용자를 통해 전달받아 입력합니다. 
+➊ 도메인 주소, ➋ 고객 키, ➌ 비밀 키를 NHN Cloud 콘솔 권한을 가진 관리자를 통해 전달받아 입력합니다. 
 
 <br>
 
@@ -83,8 +83,8 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 <br>
 
 !!! tip "알아두기"
-    * 연결 추가에 필요한 값은 NHN Cloud 콘솔 권한을 가진 사용자를 통해 확인할 수 있습니다.
-        * 고객 이름은 검증이 완료되면 사용자(관리자)가 입력한 이름으로 자동으로 노출됩니다.
+    * 연결 추가에 필요한 값은 NHN Cloud 콘솔 권한을 가진 관리자를 통해 확인할 수 있습니다.
+        * 고객 이름은 검증이 완료되면 관리자가 입력한 이름으로 자동으로 노출됩니다.
     * 다수의 연결 항목을 추가할 수 있으나 연결은 1개만 가능합니다.
 
 <br>

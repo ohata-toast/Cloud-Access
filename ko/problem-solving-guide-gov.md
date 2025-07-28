@@ -9,7 +9,7 @@
 로그인 후 인스턴스에 접속하려면 아래 설정을 추가해야 합니다.
 
 * 라우트 설정
-    * 자세한 내용은 [콘솔 사용 가이드 - 시작하기](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/)를 참고하세요.
+    * 자세한 내용은 [콘솔 사용 가이드 - 시작하기](https://docs.gov-nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/)를 참고하세요.
 * ACL 정책 설정
     * 내부 인스턴스에 접근 시 적용되는 접근 제어 정책입니다. **ACL 정책** 탭에서 IP를 허용해야 합니다.
 * Security Groups 설정
@@ -61,5 +61,5 @@ Cloud Access 서비스가 비활성화 상태일 경우 계정 연결이 불가�
 
 !!! tip "문제가 해결되지 않을 경우"
     문제 해결 가이드의 안내에 따라 진행하였으나 문제가 해결되지 않을 경우 NHN Cloud 고객 센터로 문의하세요.
-    * [온라인 1:1 문의 바로가기](https://www.nhncloud.com/kr/support/inquiry?alias=tab16_15)
+    * [온라인 1:1 문의 바로가기](https://www.gov-nhncloud.com/kr/support/inquiry?alias=tab16_15)
     * 대표 전화: 1588-7967(운영시간: 월~금 10:00-19:00)
