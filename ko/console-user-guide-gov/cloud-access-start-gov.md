@@ -28,12 +28,44 @@
 ## 라우트 설정
 
 외부에서 에이전트를 사용해 연결된 사용자가 내부 인스턴스에 접근할 수 있도록 라우트를 설정합니다.
-예를 들어, 사용자 IP 할당 대역은 10.0.0.0/24이고 연결 설정 시 선택한 서브넷은 172.16.0.0/24, 그리고 접근 가능 대역은 172.16.100.0/24일 때 VPC 라우트에 아래와 같은 룰을 추가합니다.
+
+### 1개의 VPC
+
+* 사용자 IP 할당 대역: 10.0.0.0/24
+* VPC: 172.16.0.0/12
+* Cloud Access 생성 시 선택한 서브넷: 172.16.0.0/24
+* 접근 가능 대역: 172.16.100.0/24
+
+위와 같이 설정되어 있을 때 **[Network - Routing]** 에서 접속 필요한 인스턴스가 속한 라우팅테이블을 선택하여 **라우트** 탭에 아래와 같은 룰을 추가합니다.
 
 * 대상 CIDR: 10.0.0.0/24
 * 게이트웨이: Virtual_IP 타입의 NCAccess_INF_SUB_PORT_VIP
 
-<br>
+### 2개의 VPC
+
+* 사용자 IP 할당 대역: 10.0.0.0/24
+* VPC1: 172.16.0.0/12
+* VPC2: 192.168.0.0/16
+* Cloud Access 생성 시 선택한 서브넷: 172.16.0.0/24
+* 접근 가능 대역: 192.168.0.0/24
+
+위와 같이 설정되어 있을 때 VPC1(로컬)과 VPC2(피어)간 피어링을 설정합니다. 그리고 **[Peering Gateway - 피어링]** 에서 **라우트** 탭을 선택하여 로컬 라우트 룰을 추가합니다.
+
+* 대상 CIDR: 10.0.0.0/24
+* 게이트웨이: Virtual_IP 타입의 NCAccess_INF_SUB_PORT_VIP
+
+### 다른 프로젝트
+
+* 사용자 IP 할당 대역: 10.0.0.0/24
+* 프로젝트 1번 VPC: 172.16.0.0/12
+* 프로젝트 2번 VPC: 192.168.0.0/16
+* Cloud Access 생성 시 선택한 서브넷: 172.16.0.0/24
+* 접근 가능 대역: 192.168.0.0/24
+
+위와 같이 설정되어 있을 때 1번 프로젝트(로컬)와 2번 프로젝트(피어) 간 피어링을 설정합니다. 그리고 **[Peering Gateway - 프로젝트 피어링]** 에서 **라우트** 탭을 선택하여 로컬 라우트 룰을 추가합니다.
+
+* 대상 CIDR: 10.0.0.0/24
+* 게이트웨이: Virtual_IP 타입의 NCAccess_INF_SUB_PORT_VIP
 
 !!! danger "주의"
     * 설정 정보 저장 전 선택한 VPC에 인터넷 게이트웨이가 연결되어 있는지 확인하세요.
@@ -52,11 +84,11 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
 * Windows 11(64bit)
 * macOS 13.3 이상
 
-| 운영체제 | 버전| 파일 | 업데이트 날짜 |
+| 운영체제 | 버전| 다운로드 | 업데이트 날짜 |
 |--------|------|------|------|
-| Windows(64bit)|1.1.1|[다운로드](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)|2025.08.12|
-| Windows(32bit)|1.1.1|[다운로드](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.08.12|
-|macOS|1.1.1|[다운로드](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer%20v0.9.0-5326.dmg)|2025.08.12|
+| Windows(64bit)|1.0.0|[CloudAccess_Setup_x64](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)|2025.08.12|
+| Windows(32bit)|1.0.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.08.12|
+|macOS|1.0.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer%20v0.9.0-5326.dmg)|2025.08.12|
 
 <br>
 
@@ -151,7 +183,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드 합니다. 
  * 종료: 에이전트를 종료합니다.
 
 ### 에이전트 연결 후
-* 고객 이름과 계정 이름이 노출됩니다.
+고객 이름과 계정명이 노출됩니다.
 * 열기: 연결 항목을 보여주는 화면을 엽니다.
 * 연결 해제: 에이전트 연결을 해제합니다.
 * 공지: 설정된 공지를 확인합니다(공지가 설정되어 있지 않을 수 있습니다.).
