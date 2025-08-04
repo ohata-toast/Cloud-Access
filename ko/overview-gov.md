@@ -33,4 +33,4 @@ Cloud Access는 제로 트러스트 보안 모델을 기반으로 NHN Cloud 리�
 
 !!! tip "알아두기"
 
-    * Cloud Access는 여러가지 방식으로 구성할 수 있습니다. 자세한 설정 방법은 [콘솔 사용 가이드 - 시작하기](https://docs.gov-nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/)를 참고하세요.
+    * Cloud Access는 여러 가지 방식으로 구성할 수 있습니다. 자세한 설정 방법은 [콘솔 사용 가이드 - 시작하기](https://docs.gov-nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/)를 참고하세요.
