@@ -2,7 +2,7 @@
 
 **Security > Cloud Access > Release Notes**
 
-## August 12, 2025
+## July 15, 2025
 
 ### Release of a New Cloud Access Service
 

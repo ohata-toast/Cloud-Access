@@ -2,7 +2,7 @@
 
 **Security > Cloud Access > リリースノート**
 
-## 2025. 08. 12.
+## 2025. 07. 15.
 
 ### Cloud Access新規サービスリリース
 

@@ -1,12 +1,12 @@
-# Objects
+# Object
 
-**Security > Cloud Access > Console User Guide > Objects**
+**Security > Cloud Access > Console User Guide > Object**
 
-In the **Objects** tab, you can manage IPs and ports used when creating ACL policies.
+In the **Object** tab, you can manage IPs and ports used when creating ACL policies.
 
 <br>
 
-## Manage IP Objects
+## Manage IP
 
 ### Add
 
@@ -14,34 +14,34 @@ In the **Objects** tab, you can manage IPs and ports used when creating ACL poli
 
 Create an object by entering the required information.
 
-### Edit
+### Modify
 
-Click **Edit** to modify the object.
+Click **Modify** to modify the object.
 
 ### Delete
 
-Click Delete to remove the object.
+Click **Delete** to remove the object.
 
 ### Additional Features
 
 * Add User Object: Add objects based on registered users.
 * Download Template: Download a template file for bulk registration.
-* Bulk Object Registration: Use the template to register multiple objects at once.
-* Download All Objects: Download all IP objects currently registered in the Objects tab at once.
+* Upload Object in Batch: Use the template to register multiple objects at once.
+* Download Object in Batch: Download all IP objects currently registered in the **Object** tab at once.
 
 <br>
 
 !!! tip "Note"
     * When creating a group object, other group objects cannot be added (only single or range objects can be selected).
-    * The type of an IP object cannot be changed after creation.
-    * IP objects created during the initial Cloud Access setup cannot be edited or deleted.
+    * The type cannot be changed when modifying an IP object.
+    * IP objects created during Cloud Access setup cannot be modified or deleted.
 
 !!! danger "Caution"
-    * If you delete an object currently used in a policy, it will be replaced with the "ALL" object. Please proceed with caution.
+    * If you delete an object currently used in a policy, it will be replaced with the "ALL" object. Proceed with caution.
 
 <br>
 
-## Manage Port Objects
+## Manage Port
 
 ### Add
 
@@ -49,9 +49,9 @@ Click Delete to remove the object.
 
 Create an object by entering the required information.
 
-### Edit
+### Modify
 
-Click **Edit** to modify the object.
+Click **Modify** to modify the object.
 
 ### Delete
 
@@ -60,13 +60,13 @@ Click **Delete** to remove the object.
 ### Additional Features
 
 * Download Template: Download a template file for bulk registration.
-* Bulk Object Registration: Use the template to register multiple port objects at once.
-* Download All Objects: Download all port objects currently registered in the Objects tab at once.
+* Upload Object in Batch: Use the template to register multiple port objects at once.
+* Download Object in Batch: Download all port objects currently registered in the Objects tab at once.
 
 !!! tip "Note"
     * When creating a group object, other group objects cannot be added (only single or range objects can be selected).
-    * The type of a port object cannot be changed after creation.
-    * Port objects created during the initial Cloud Access setup cannot be edited or deleted.
+    * The type cannot be changed when modifying a port object.
+    * Port objects created during Cloud Access setup cannot be modified or deleted.
 
 !!! danger "Caution"
-    * If you delete an object currently used in a policy, it will be replaced with the "ALL" object. Please proceed with caution.
+    * If you delete an object currently used in a policy, it will be replaced with the "ALL" object. Proceed with caution.
