@@ -28,12 +28,44 @@ Enter and save the connection settings. Once saved, Cloud Access becomes availab
 ## Route Settings
 
 Configure routing so users connected via agents can access internal instances.
-For example, if the user IP allocation range is 10.0.0.0/24, the selected subnet is 172.16.0.0/24, and the accessible range is also 172.16.0.0/24, add the following rule in the VPC route table:
+
+### One VPC
+
+* User IP assigned band: 10.0.0.0/24
+* VPC: 172.16.0.0/12
+* Subnet selected when creating Cloud Access: 172.16.0.0/24
+* Accessible band: 172.16.100.0/24
+
+When set as above, select the routing table to which the instance requiring connection belongs in **Network - Routing** and add the following rules to the **Route** tab.
 
 * Destination CIDR: 10.0.0.0/24
-* Gateway: TRAFFIC_SUBNET_INTERFACE_VIP of type Virtual_IP
+* Gateway: NCAccess_INF_SUB_PORT_VIP of type Virtual_IP
 
-<br>
+### Two VPCs
+
+* User IP assigned band: 10.0.0.0/24
+* VPC1: 172.16.0.0/12
+* VPC2: 192.168.0.0/16
+* Subnet selected when creating Cloud Access: 172.16.0.0/24
+* Accessible band: 192.168.0.0/24
+
+When set as above, set peering between VPC1 (local) and VPC2 (peer). And select **Route** tab from **Peering Gateway - Peering** to add the local route rule.
+
+* Destination CIDR: 10.0.0.0/24
+* Gateway: NCAccess_INF_SUB_PORT_VIP of type Virtual_IP
+
+### Other Projects
+
+* User IP assigned band: 10.0.0.0/24
+* Project 1 VPC: 172.16.0.0/12
+* Project 2 VPC: 192.168.0.0/16
+* Subnet selected when creating Cloud Access: 172.16.0.0/24
+* Accessible band: 192.168.0.0/24
+
+When set as above, set peering between project 1 (local) and project 2 (peer). And select **Route** tab from **[Peering Gateway - Project Peering]** to add the local route rule..
+
+* Destination CIDR: 10.0.0.0/24
+* Gateway: NCAccess_INF_SUB_PORT_VIP of type Virtual_IP
 
 !!! danger "Caution"
     * Before saving the settings, make sure the selected VPC is connected to an internet gateway.
@@ -52,11 +84,11 @@ Download the agent to use Cloud Access. The service supports the following OS:
 * Windows 11 (64bit)
 * macOS 13.3 or later
 
-### [Download for Windows (64bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)
-
-### [Download for Windows (32bit)](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)
-
-### [Download for macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer%20v0.9.0-5326.dmg)
+| OS | Version| Download | Update date |
+|--------|------|------|------|
+| Windows(64bit)|1.0.0|[CloudAccess_Setup_x64](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)|2025.08.12|
+| Windows(32bit)|1.0.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.08.12|
+|macOS|1.0.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer%20v0.9.0-5326.dmg)|2025.08.12|
 
 <br>
 
@@ -68,7 +100,7 @@ Add a connection item to access NHN Cloud resources via the agent.
 
 ![conncetion_add_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/add_1.png)
 
-Enter the ➊ Domain address, ➋ Customer key, and ➌ Secret key, provided by a user with NHN Cloud console permissions.
+Enter the ➊ Domain address, ➋ Customer key, and ➌ Secret key, provided by an administrator with NHN Cloud console permissions.
 
 <br>
 
@@ -83,8 +115,8 @@ Click a connection item to activate the **Delete Connection** button and remove 
 <br>
 
 !!! tip "Note"
-    * The required values for connection setup can be obtained from a user with NHN Cloud console permissions.
-        * Once verification is completed, the customer name is automatically displayed as set by the user (administrator).
+    * The required values for connection setup can be obtained from an administrator with NHN Cloud console permissions.
+        * Once verification is completed, the customer name is automatically displayed as set by the administrator.
     * You can register multiple connections, but only one can be active at a time.
 
 <br>
@@ -151,7 +183,7 @@ Overview of the agent tray icon features.
  * Quit: Close the agent.
 
 ### After Connecting to Agent
-* Shows customer and account names.
+Shows customer and account names.
 * Open: Displays connection screen.
 * Disconnect: Disconnects the agent.
 * Notice: Displays announcements (if available).
