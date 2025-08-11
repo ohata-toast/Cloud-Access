@@ -23,14 +23,11 @@ Using a dedicated agent, users can access resources easily without complex confi
     
 <br>
 
-  ## Configuration
+## Configuration & how it works
 
-  Cloud Access can be configured as follows:
+The administrator set up the user policy on the policy decision point (PDP) with the NHN Cloud console. If a user attempts to access the internal resource with sign-in afterwards, it will be allowed or denied by performing the real-time policy verification with Cloud Access service, which is a policy enforcement point (PEP).
 
-  ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/Architecture_1.png)
-
-* Create a dedicated Cloud Access subnet in the VPC that contains the instances that need access.
-* Create Cloud Access by using the created subnet.
+![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
 
 !!! tip "Important"
 
