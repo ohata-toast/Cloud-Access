@@ -22,11 +22,11 @@ Cloud Access는 제로 트러스트 보안 모델을 기반으로 NHN Cloud 리�
 
 <br>
 
-  ## 구성 및 동작 방식
+## 구성 및 동작 방식
 
- 관리자는 NHN Cloud 콘솔을 통해 정책 결정 지점(policy decision point, PDP)에 사용자 정책을 설정합니다. 이후 사용자가 로그인을 통해 내부 리소스에 접근을 시도하면 정책 시행 지점(policy enforcement point, PEP)인 Cloud Access 서비스를 통해 실시간 정책 검증을 수행하여 접근을 허용 또는 차단합니다.
+관리자는 NHN Cloud 콘솔을 통해 정책 결정 지점(policy decision point, PDP)에 사용자 정책을 설정합니다. 이후 사용자가 로그인을 통해 내부 리소스에 접근을 시도하면 정책 시행 지점(policy enforcement point, PEP)인 Cloud Access 서비스를 통해 실시간 정책 검증을 수행하여 접근을 허용 또는 차단합니다.
 
-  ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
+![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
 
 
 !!! tip "알아두기"
