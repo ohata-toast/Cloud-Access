@@ -22,15 +22,12 @@ Cloud Access는 제로 트러스트 보안 모델을 기반으로 NHN Cloud 리�
 
 <br>
 
-  ## 구성
+  ## 구성 및 동작 방식
 
-  Cloud Access는 아래와 같이 구성할 수 있습니다.
+ 관리자는 NHN Cloud 콘솔을 통해 정책 결정 지점(policy decision point, PDP)에 사용자 정책을 설정합니다. 이후 사용자가 로그인을 통해 내부 리소스에 접근을 시도하면 정책 시행 지점(policy enforcement point, PEP)인 Cloud Access 서비스를 통해 실시간 정책 검증을 수행하여 접근을 허용 또는 차단합니다.
 
-  ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/Architecture_1.png)
-
-* 접속이 필요한 인스턴스가 속한 VPC에서 Cloud Access 전용 서브넷을 생성합니다.
-* 생성한 서브넷을 사용하여 Cloud Access를 생성합니다.
+  ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
 
 !!! tip "알아두기"
 
-    * Cloud Access는 여러 가지 방식으로 구성할 수 있습니다. 자세한 설정 방법은 [콘솔 사용 가이드 - 시작하기](https://docs.gov-nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/)를 참고하세요.
+    * Cloud Access는 여러 가지 방식으로 구성할 수 있습니다. 자세한 설정 방법은 [콘솔 사용 가이드 - 시작하기](https://docs.gov-nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide-gov/cloud-access-start/)를 참고하세요.

@@ -26,7 +26,7 @@ Cloud Accessは、ゼロトラストセキュリティモデルに基づいて�
 
   Cloud Accessは以下のように構成できます。
 
-  ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/Architecture_1.png)
+  ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
 
 * 接続が必要なインスタンスが属するVPCでCloud Access専用サブネットを作成します。
 * 作成したサブネットを使用してCloud Accessを作成します。

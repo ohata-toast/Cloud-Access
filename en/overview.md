@@ -27,7 +27,7 @@ Using a dedicated agent, users can access resources easily without complex confi
 
   Cloud Access can be configured as follows:
 
-  ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/Architecture_1.png)
+  ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
 
 * Create a dedicated Cloud Access subnet in the VPC that contains the instances that need access.
 * Create Cloud Access by using the created subnet.
