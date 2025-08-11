@@ -22,14 +22,12 @@ Cloud Accessは、ゼロトラストセキュリティモデルに基づいて�
 
 <br>
 
-## 構成
+## 構成および動作方式
 
-Cloud Accessは以下のように構成できます。
+管理者は、NHN Cloud コンソールを通じてポリシー決定ポイント（policy decision point、PDP）にユーザーポリシーを設定します。
+その後、ユーザーがログインを通じて内部リソースへのアクセスを試みると、ポリシー実施ポイント（policy enforcement point、PEP）である Cloud Access サービスを介してリアルタイムのポリシー検証を行い、アクセスを許可または拒否します。
 
 ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
-
-* 接続が必要なインスタンスが属するVPCでCloud Access専用サブネットを作成します。
-* 作成したサブネットを使用してCloud Accessを作成します。
 
 !!! tip 「ポイント」
 
