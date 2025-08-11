@@ -6,6 +6,8 @@ Cloud Accessは、ゼロトラストセキュリティモデルに基づいて�
 
 専用エージェントを利用することで、ユーザーは複雑な設定なしで簡単にリソースへアクセスでき、管理者はNHN Cloudコンソールからユーザー管理や継続的な認証、リアルタイムのログ記録およびモニタリング機能を活用して効率的にサービスを運用できます。
 
+<br>
+
 ## 主な機能
 
 * カスタマイズ可能な管理
@@ -17,3 +19,16 @@ Cloud Accessは、ゼロトラストセキュリティモデルに基づいて�
     * ユーザーの接続試行、認証履歴、ポリシー違反など、様々なユーザーの活動をリアルタイムで収集・保存します。
         * 管理者は、現在誰がどこに接続中か、どのような異常が発生したかなど、ユーザーの詳しい情報を迅速に把握できます。
     * 収集されたログは、顧客のセキュリティ要件に応じてNHN CloudのObject Storage（OBS）やLog & Crash Searchサービスと連携して自動的に保存されます。これにより、長期的なログの保管や規制遵守のための監査対応が可能となり、顧客はより体系的なセキュリティ運用環境を構築できます。
+
+<br>
+
+## 構成および動作方式
+
+管理者は、NHN Cloud コンソールを通じてポリシー決定ポイント（policy decision point、PDP）にユーザーポリシーを設定します。
+その後、ユーザーがログインを通じて内部リソースへのアクセスを試みると、ポリシー実施ポイント（policy enforcement point、PEP）である Cloud Access サービスを介してリアルタイムのポリシー検証を行い、アクセスを許可または拒否します。
+
+![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
+
+!!! tip 「ポイント」
+
+    * Cloud Accessは複数の方法で構成できます。詳細な設定方法は[コンソール使用ガイド - 始める](https://docs.gov-nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/)を参照してください。

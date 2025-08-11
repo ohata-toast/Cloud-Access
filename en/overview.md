@@ -6,6 +6,8 @@ Cloud Access is a service that enables secure access to NHN Cloud resources base
 
 Using a dedicated agent, users can access resources easily without complex configurations. At the same time, administrators can efficiently manage the service through the NHN Cloud console, with features such as user and continuous authentication, real-time logging, and monitoring.
 
+<br>
+
 ## Main Features
 
 * Customized Account Management
@@ -17,3 +19,16 @@ Using a dedicated agent, users can access resources easily without complex confi
     * The system collects and stores real-time activity logs such as connection attempts, authentication history, and policy violations.
         * Administrators can quickly identify who is connected to which resources and detect any anomalies.
     * Collected logs are automatically stored in NHN Cloud’s Object Storage (OBS) or integrated with the Log & Crash Search service, based on the customer’s security requirements. This supports long-term log retention, regulatory compliance, and helps customers build a more structured and secure operating environment.
+
+    
+<br>
+
+## Configuration & how it works
+
+The administrator set up the user policy on the policy decision point (PDP) with the NHN Cloud console. If a user attempts to access the internal resource with sign-in afterwards, it will be allowed or denied by performing the real-time policy verification with Cloud Access service, which is a policy enforcement point (PEP).
+
+![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
+
+!!! tip "Important"
+
+    * Cloud Access can be configured in various ways. For details about how to configure, refer to [Console Guide - Get Started](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/).
