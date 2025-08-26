@@ -59,7 +59,7 @@ Cloud Accessサービスが無効化されていると、アカウント連携�
 
 <br>
 
-!!! tip 「問題が解決しない場合」
+!!! tip "問題が解決しない場合"
   トラブルシューティングの案内に従って進めたにもかかわらず問題が解決しない場合は、NHN Cloudサポートまでお問い合わせください。
-    * [オンライン1:1お問い合わせ](https://www.nhncloud.com/kr/support/inquiry)
+    * [オンライン1:1お問い合わせ](https://www.nhncloud.com/kr/support/inquiry?alias=tab16_15)
     * 代表電話: 1588-7967(営業時間:月～金10:00～19:00)
