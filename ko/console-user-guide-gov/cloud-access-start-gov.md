@@ -25,6 +25,16 @@
 
 <br>
 
+## 과금 하기
+Cloud Access 서비스의 과금 방식은 아래와 같습니다.
+
+* **설정-연결 설정**에서 서비스에 필요한 설정을 진행한 뒤 저장하여 완료되는 순간부터 과금됩니다.
+* 서비스 활성화 시에는 과금되지 않습니다.
+
+과금에 대한 자세한 내용은 [서비스 요금](https://www.nhncloud.com/kr/service/security/cloud-access)을 참고하세요.
+
+<br>
+
 ## 라우트 설정하기
 
 외부에서 에이전트를 사용해 연결된 사용자가 내부 인스턴스에 접근할 수 있도록 라우트를 설정합니다.
@@ -86,9 +96,9 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드합니다. �
 
 | 운영체제 | 버전| 다운로드 | 업데이트 날짜 |
 |--------|------|------|------|
-| Windows(64bit)|1.0.0|[CloudAccess_Setup_x64](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)|2025.08.12|
-| Windows(32bit)|1.0.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.08.12|
-|macOS|1.0.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer.dmg)|2025.08.12|
+| Windows(64bit)|1.1.0|[CloudAccess_Setup_x64](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)|2025.11.11|
+| Windows(32bit)|1.1.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.11.11|
+|macOS|1.1.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer.dmg)|2025.11.11|
 
 <br>
 
@@ -136,6 +146,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드합니다. �
 
 * 계정명: Cloud Access 서비스 권한을 가진 관리자로부터 생성 받은 계정을 입력합니다.
 * 비밀번호: 계정 생성 시 입력한 메일 주소로 수신한 임시 비밀번호를 입력합니다.
+* 계정명 저장: 클릭 후 로그인을 한 뒤 재로그인 시 직전에 로그인 한 계정명을 자동으로 입력하여 노출합니다. 
 
 ### 개인정보 수집·이용 동의
 * Cloud Access 서비스를 운영하기 위한 개인정보를 수집합니다.
@@ -163,6 +174,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드합니다. �
     * 비밀번호 설정 시 관리자가 설정한 비밀번호 정책과 관계없이 아래의 정책은 필수로 적용됩니다.
         * 6자리 이상 30자리 이하의 길이
         * 사용자 계정(ID)과 동일한 비밀번호 설정 금지
+    * 계정명 저장은 직전에 로그인 한 계정명만 노출합니다. (로그인을 하지 않은 계정은 노출하지 않습니다)
 
 <br>
 
@@ -178,7 +190,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드합니다. �
  * 업데이트 확인: 에이전트의 현재 상태를 확인합니다. 업데이트 필요 시 업데이트를 진행합니다.
  * 버전 정보: 에이전트의 현재 버전 정보와 오픈소스 라이선스 및 개인정보 처리 방침을 확인할 수 있습니다.
  * 설정: 에이전트의 환경 설정 및 언어 설정을 할 수 있습니다.
-      * 클라우드 환경 설정: 민간 또는 공공클라우드를 선택합니다.
+      * 클라우드 환경 설정: 퍼블릭 또는 공공클라우드를 선택합니다.
       * 언어 설정: 한국어, 영어, 일본어를 지원합니다.
  * 종료: 에이전트를 종료합니다.
 
