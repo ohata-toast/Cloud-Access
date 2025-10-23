@@ -28,7 +28,16 @@ Cloud Access는 제로 트러스트 보안 모델을 기반으로 NHN Cloud 리�
 
 ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
 
-
 !!! tip "알아두기"
 
-    * Cloud Access는 여러 가지 방식으로 구성할 수 있습니다. 자세한 설정 방법은 [콘솔 사용 가이드 - 시작하기](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/)를 참고하세요.
+    Cloud Access는 여러 가지 방식으로 구성할 수 있습니다. 자세한 설정 방법은 [콘솔 사용 가이드 - 시작하기](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/)를 참고하세요.
+
+<br>
+
+## 요금
+Cloud Access 서비스의 요금 결제는 아래와 같습니다.
+
+* **설정-연결 설정**에서 서비스에 필요한 설정을 진행한 뒤 저장하여 완료되는 순간부터 요금이 발생합니다.
+    * 서비스 활성화 시에는 요금이 발생하지 않습니다.
+
+서비스 이용요금에 대한 자세한 내용은 [서비스 요금](https://www.nhncloud.com/kr/service/security/cloud-access)을 참고하세요.
