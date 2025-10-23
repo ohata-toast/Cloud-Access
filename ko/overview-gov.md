@@ -40,4 +40,4 @@ Cloud Access 서비스의 요금 결제는 아래와 같습니다.
 * **설정-연결 설정**에서 서비스에 필요한 설정을 진행한 뒤 저장하여 완료되는 순간부터 요금이 발생합니다.
     * 서비스 활성화 시에는 요금이 발생하지 않습니다.
 
-서비스 이용요금에 대한 자세한 내용은 [서비스 요금](https://www.nhncloud.com/kr/service/security/cloud-access)을 참고하세요.
+서비스 이용 요금에 대한 자세한 내용은 [서비스 요금](https://www.nhncloud.com/kr/service/security/cloud-access)을 참고하세요.
