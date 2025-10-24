@@ -30,4 +30,14 @@ Cloud Accessは、ゼロトラストセキュリティモデルに基づいて�
 
 !!! tip "ポイント"
 
-    * Cloud Accessは複数の方法で構成できます。詳細な設定方法は[コンソール使用ガイド - 始める](https://docs.nhncloud.com/ja/Security/Cloud%20Access/ja/console-user-guide/cloud-access-start/)を参照してください。
+    Cloud Accessは複数の方法で構成できます。詳細な設定方法は[コンソール使用ガイド - 始める](https://docs.nhncloud.com/ja/Security/Cloud%20Access/ja/console-user-guide/cloud-access-start/)を参照してください。
+
+<br>
+
+## 料金
+Cloud Accessサービスの料金決済は次のとおりです。
+
+* **設定-接続設定**でサービスに必要な設定を行い、保存して完了した瞬間から料金が発生します。
+    * サービスを有効化しても料金は発生しません。
+
+サービス利用料金の詳細は、[サービス料金](https://www.nhncloud.com/kr/service/security/cloud-access)をご参照ください。

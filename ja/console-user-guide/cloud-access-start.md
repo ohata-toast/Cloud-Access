@@ -86,9 +86,9 @@ Cloud Accessサービスを利用するためのエージェントをダウン�
 
 | OS | バージョン| ダウンロード | 更新日 |
 |--------|------|------|------|
-| Windows(64bit)|1.0.0|[CloudAccess_Setup_x64](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)|2025.08.12|
-| Windows(32bit)|1.0.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.08.12|
-|macOS|1.0.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer.dmg)|2025.08.12|
+| Windows(64bit)|1.1.0|[CloudAccess_Setup_x64](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)|2025.11.11|
+| Windows(32bit)|1.1.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.11.11|
+|macOS|1.1.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer.dmg)|2025.11.11|
 
 <br>
 
@@ -136,6 +136,7 @@ NHN Cloudリソースに接続するための項目を追加します。
 
 * アカウント名：管理者から発行されたアカウントを入力します。
 * パスワード：メールで届いた初期パスワードを入力します。
+* アカウント名の保存: クリックしてログインした後、再ログインする際に直前にログインしたアカウント名を自動で入力して表示します。
 
 ### 個人情報収集・利用同意
 * Cloud Accessサービス運用のため個人情報を収集します。
@@ -158,12 +159,14 @@ NHN Cloudリソースに接続するための項目を追加します。
 <br>
 
 !!! tip "ポイント"
+    * NHN Cloudコンソールの権限を持つ管理者がユーザーアカウントを作成すると、登録されたユーザーのメールアドレスに仮パスワードとエージェントのダウンロードリンクが送信されます。
     * アカウント作成後、登録されたメールアドレスに初期パスワードが送信されます。
     * 初回認証時のみ個人情報同意画面が表示され、接続完了で同意されたと見なされます（認証を完了しないと再同意が必要）。
     * 以下のパスワード制約は常に適用されます：
         * 6～30文字以内
         * アカウントIDと同一のパスワードは不可
-
+    * **アカウント名の保存**は、直前にログインしたアカウント名のみを表示し、ログインしていないアカウントは表示しません。
+    
 <br>
 
 ## エージェントのトレイ機能
@@ -186,6 +189,7 @@ NHN Cloudリソースに接続するための項目を追加します。
 顧客名とアカウント名が表示
 * 開く：接続項目表示
 * 接続解除：接続解除
+* パスワード変更:パスワードを変更します。
 * お知らせ：通知内容表示（通知が設定されていない場合もあり）
 * バージョン情報：バージョン・ライセンス表示
 * 終了：エージェントを終了
