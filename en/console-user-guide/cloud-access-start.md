@@ -23,6 +23,8 @@ Enter and save the connection settings. Once saved, Cloud Access becomes availab
 * Select an encryption algorithm.
     * Supports AES-256 and ChaCha20 algorithms.
 
+!!! tip "Note"
+    Charging starts from when you complete settings for connecting Cloud Access and click **Save**.
 <br>
 
 ## Route Settings
@@ -86,9 +88,9 @@ Download the agent to use Cloud Access. The service supports the following OS:
 
 | OS | Version| Download | Update date |
 |--------|------|------|------|
-| Windows(64bit)|1.0.0|[CloudAccess_Setup_x64](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)|2025.08.12|
-| Windows(32bit)|1.0.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.08.12|
-|macOS|1.0.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer.dmg)|2025.08.12|
+| Windows(64bit)|1.1.0|[CloudAccess_Setup_x64](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x64.exe)|2025.11.11|
+| Windows(32bit)|1.1.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.11.11|
+|macOS|1.1.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer.dmg)|2025.11.11|
 
 <br>
 
@@ -136,6 +138,7 @@ Select the required connection and click **Connect** to proceed with authenticat
 
 * Account Name: Enter the account received from the administrator.
 * Password: Enter the temporary password sent to your registered email.
+* Save Account Name: After clicking and logging in, the account name you logged in with will be automatically entered and exposed when you log in again.
 
 ### Agree to collection and usage of personal information
 * Personal information is collected to operate Cloud Access service.
@@ -158,11 +161,12 @@ Select the required connection and click **Connect** to proceed with authenticat
 <br>
 
 !!! tip "Note"
-    * When an account is created, a temporary password is sent to the user’s registered email.
+    * When an account is created, a temporary password and agent download link are sent to the user’s registered email.
     * The personal information agreement is displayed only at the user's first login and is considered accepted only after a successful connection. If the process is canceled, the user must agree again.
     * The following password rules always apply, regardless of the admin’s policy:
         * 6–30 characters in length
         * Cannot be the same as the user account (ID)
+    * **Save Account Name** only exposes the account name that was previously logged in, and does not expose accounts that were not logged in.
 
 <br>
 
@@ -178,7 +182,7 @@ Overview of the agent tray icon features.
  * Check Updates: Verifies agent version and updates if necessary.
 * Version Info: Shows current version, open source licenses, and privacy policy.
  * Settings: Configure agent settings and language.
-      * Cloud Environment Settings: Choose Private or Public Cloud
+      * Cloud Environment Settings: Choose a public cloud.
       * Language Settings: Korean, English, Japanese
  * Quit: Close the agent.
 
@@ -186,6 +190,7 @@ Overview of the agent tray icon features.
 Shows customer and account names.
 * Open: Displays connection screen.
 * Disconnect: Disconnects the agent.
+* Change Password: Changes the password.
 * Notice: Displays announcements (if available).
 * Version Info: Shows version and legal info.
 * Quit: Close the agent.

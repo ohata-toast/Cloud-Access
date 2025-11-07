@@ -31,4 +31,14 @@ The administrator set up the user policy on the policy decision point (PDP) with
 
 !!! tip "Important"
 
-    * Cloud Access can be configured in various ways. For details about how to configure, refer to [Console Guide - Get Started](https://docs.nhncloud.com/en/Security/Cloud%20Access/en/console-user-guide/cloud-access-start/).
+        Cloud Access can be configured in various ways.  For detailed setting instruction, refer to the [Console User Guide - Get Started](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/).
+
+<br>
+
+## Price
+Cloud Access service fee is charged as follows:
+
+* Billing begins when you complete the required service settings in **Setting - Connection Setting** and save them.
+    * There are no charges for enabling the service.
+
+For more information about service usage fee, refer to the [Service Fee](https://www.nhncloud.com/kr/service/security/cloud-access).
