@@ -111,4 +111,4 @@
         * 명령어: Get-WmiObject -Namespace "root\SecurityCenter2" -Class AntiVirusProduct
 
 !!! danger "주의"
-    엔드포인트 설정 등록 시 OS별 각각 등록해야 적용됩니다. 예를 들어, 허용 소프트웨어에 Windows만 대상으로 파일 경로를 등록했을 때 Windows로 접속 시 해당 파일 경로를 검사 후 허용 또는 차단하지만 macOS는 검사할 항목이 없기 때문에 차단할 수 없습니다.
+    엔드포인트 설정은 OS별로 각각 등록해야 합니다. 예를 들어, 허용 소프트웨어에 Windows만 대상으로 파일 경로를 등록했을 때 Windows로 접속 시 해당 파일 경로를 검사 후 허용 또는 차단하지만 macOS는 검사할 항목이 없기 때문에 차단할 수 없습니다.
