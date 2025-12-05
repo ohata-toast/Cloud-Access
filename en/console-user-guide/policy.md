@@ -78,9 +78,9 @@ Add policies to apply to users via the agent.
 * ➊ Enter required information:
     * User’ IP allocation range: Private IP range automatically assigned when the user connects the agent
     * Accessible IP Range: IP range of internal instances the user can access
-        * (up to 3 ranges allowed)
+        * up to 100 ranges are allowed.
 * ➋ Set connection conditions:
-    * You can configure the allowed operating systems, password reset on first login, and set the health check cycle.
+    * You can configure the allowed operating systems, password reset on first login, and set the health check cycle, idle time.
 * ➌ Set multi-factor authentication:
     * Supports up to 4 types. If all are selected, all must be verified:
         * TOTP

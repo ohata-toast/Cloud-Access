@@ -30,8 +30,7 @@ The administrator set up the user policy on the policy decision point (PDP) with
 ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
 
 !!! tip "Important"
-
-    * Cloud Access can be configured in various ways. For details about how to configure, refer to [Console Guide - Get Started](https://docs.nhncloud.com/en/Security/Cloud%20Access/en/console-user-guide/cloud-access-start/).
+    Cloud Access can be configured in various ways. For details about how to configure, refer to [Console Guide - Get Started](https://docs.nhncloud.com/en/Security/Cloud%20Access/en/console-user-guide/cloud-access-start/).
 
 <br>
 
@@ -49,3 +48,4 @@ For more information on service fees, please refer to [Service Fee] (https://www
 
 !!! danger "Caution"
     If Cloud Access service is enabled in both the Korea (Pangyo) and Korea (Pyeongchon) regions and you disable it, the service will be disabled in all regions. Please be careful when disabling the service. (feature updates planned)
+
