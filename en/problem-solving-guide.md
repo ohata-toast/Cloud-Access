@@ -17,6 +17,12 @@ To access the instance after logging in, make sure to configure the following se
 
 <br>
 
+## After entering information to add a connection, a failure message will be displayed during verification.
+
+The Cloud Access agent can access both public and private clouds. Go to **Settings - Cloud Preferences** in the tray icon menu to check out the environment you wish to add a connection to.
+
+<br>
+
 ## I'm a Windows user, but biometric authentication is not working
 
 Cloud Access biometric authentication requires a device that supports fingerprint or facial recognition. If your device does not support biometric authentication, you can configure a PIN from Account > Sign-in options and use it as an alternative method.
