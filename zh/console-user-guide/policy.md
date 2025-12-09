@@ -78,9 +78,9 @@ Add policies to apply to users via the agent.
 * ➊ Enter required information:
     * User’ IP allocation range: Private IP range automatically assigned when the user connects the agent
     * Accessible IP Range: IP range of internal instances the user can access
-        * (up to 3 ranges allowed)
+        * up to 100 ranges are allowed.
 * ➋ Set connection conditions:
-    * You can configure the allowed operating systems, password reset on first login, and set the health check cycle.
+    * You can configure the allowed operating systems, password reset on first login, and set the health check cycle, idle time.
 * ➌ Set multi-factor authentication:
     * Supports up to 4 types. If all are selected, all must be verified:
         * TOTP
@@ -109,3 +109,7 @@ Click **Delete** to remove a user policy.
     * For antivirus checks, register the display name from Windows Security Center.
         * Display names can be found with PowerShell:
         * Command: Get-WmiObject -Namespace "root\SecurityCenter2" -Class AntiVirusProduct
+        * Command: Get-WmiObject -Namespace "root\SecurityCenter2" -Class AntiVirusProduct
+
+!!! danger "Caution"
+    Endpoint settings must be registered separately for each OS. For example, if a file path is registered for Windows only in the allowed software, access via Windows will be inspected and either allowed or blocked. However, macOS cannot block the file path because no item is for inspection.
