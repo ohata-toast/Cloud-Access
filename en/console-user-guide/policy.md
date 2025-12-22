@@ -109,3 +109,7 @@ Click **Delete** to remove a user policy.
     * For antivirus checks, register the display name from Windows Security Center.
         * Display names can be found with PowerShell:
         * Command: Get-WmiObject -Namespace "root\SecurityCenter2" -Class AntiVirusProduct
+        * Command: Get-WmiObject -Namespace "root\SecurityCenter2" -Class AntiVirusProduct
+
+!!! danger "Caution"
+    Endpoint settings must be registered separately for each OS. For example, if a file path is registered for Windows only in the allowed software, access via Windows will be inspected and either allowed or blocked. However, macOS cannot block the file path because no item is for inspection.

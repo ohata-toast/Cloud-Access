@@ -30,15 +30,22 @@ The administrator set up the user policy on the policy decision point (PDP) with
 ![conncetion_Architecture_1.PNG](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_access/2025.06.24/2025.07/architecture_3.png)
 
 !!! tip "Important"
-
-        Cloud Access can be configured in various ways.  For detailed setting instruction, refer to the [Console User Guide - Get Started](https://docs.nhncloud.com/ko/Security/Cloud%20Access/ko/console-user-guide/cloud-access-start/).
+    Cloud Access can be configured in various ways. For details about how to configure, refer to [Console Guide - Get Started](https://docs.nhncloud.com/en/Security/Cloud%20Access/en/console-user-guide/cloud-access-start/).
 
 <br>
 
 ## Price
-Cloud Access service fee is charged as follows:
+The Cloud Access service fee is charged as follows:
 
-* Billing begins when you complete the required service settings in **Setting - Connection Setting** and save them.
-    * There are no charges for enabling the service.
+* Fees will be charged from the moment you save and complete the required service settings in **Settings - Connection Settings**.
+    * No fees will be charged upon service activation.
 
-For more information about service usage fee, refer to the [Service Fee](https://www.nhncloud.com/kr/service/security/cloud-access).
+For more information on service fees, please refer to [Service Fee] (https://www.nhncloud.com/kr/service/security/cloud-access).
+
+<br>
+
+## Disable
+
+!!! danger "Caution"
+    If Cloud Access service is enabled in both the Korea (Pangyo) and Korea (Pyeongchon) regions and you disable it, the service will be disabled in all regions. Please be careful when disabling the service. (feature updates planned)
+

@@ -111,3 +111,6 @@
     * ウイルス対策ソフトは、WindowsのSecurity Centerのdisplaynameで登録して検査可能です。
         * displaynameはPowerShellコマンドで確認できます。
         * コマンド：Get-WmiObject -Namespace "root\SecurityCenter2" -Class AntiVirusProduct
+        
+!!! danger "注意"
+    エンドポイント設定はOSごとにそれぞれ登録する必要があります。例えば、許可ソフトウェアにWindowsのみを対象としてファイルパスを登録した場合、Windowsで接続時は該当ファイルパスを検査後に許可またはブロックしますが、macOSは検査する項目がないためブロックできません。         
