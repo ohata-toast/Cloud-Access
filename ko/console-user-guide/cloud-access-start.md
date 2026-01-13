@@ -106,7 +106,7 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드합니다. �
 |macOS|1.1.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer.dmg)|2025.11.11|
 
 !!! tip "알아두기"
-    본 에이전트는 Cloud Access 서비스를 이용하기 위해 필요한 전용 에이전트로, 사용자 단말과 Cloud Access 서비스 간의 안전한 보안 연결을 설정·유지하고, 사용자 인증, 접속 제어 및 보안 통신을 지원하여 외부 환경에서도 안전하게 내부 서비스에 접근할 수 있도록 지원합니다.
+    Cloud Access 에이전트는 사용자 단말과 서비스 간의 보안 연결을 통해 외부 환경에서도 안전한 내부 서비스 접근을 지원하는 전용 프로그램입니다.
     
 <br>
 
