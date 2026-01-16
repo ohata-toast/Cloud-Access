@@ -105,6 +105,9 @@ Download the agent to use Cloud Access. The service supports the following OS:
 | Windows(32bit)|1.1.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.11.11|
 |macOS|1.1.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer.dmg)|2025.11.11|
 
+!!! tip "Notice"
+    The Cloud Access Agent is a dedicated application that enables safe remote access to internal services by establishing a secure connection between the user's device and the service.
+    
 <br>
 
 ## Add a Connection
@@ -207,3 +210,15 @@ Shows customer and account names.
 * Notice: Displays announcements (if available).
 * Version Info: Shows version and legal info.
 * Quit: Close the agent.
+
+<br>
+
+## Delete Agent
+
+Users can delete the agent at any time.
+
+* Windows: Go to Settings > Apps > Installed apps, select Cloud Access, and click Delete
+* macOS: Go to Finder > Applications, then drag Cloud Access to the Trash to delete it
+
+!!! danger "Caution"
+    Deleting the agent may restrict or disable access to Cloud Access services.
