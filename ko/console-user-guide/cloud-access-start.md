@@ -105,6 +105,9 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드합니다. �
 | Windows(32bit)|1.1.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.11.11|
 |macOS|1.1.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer.dmg)|2025.11.11|
 
+!!! tip "알아두기"
+    Cloud Access 에이전트는 사용자 단말과 서비스 간의 보안 연결을 통해 외부 환경에서도 안전한 내부 서비스 접근을 지원하는 전용 프로그램입니다.
+    
 <br>
 
 ## 연결 설정하기
@@ -207,3 +210,15 @@ Cloud Access 서비스 사용을 위한 에이전트를 다운로드합니다. �
 * 공지: 설정된 공지를 확인합니다(공지가 설정되어 있지 않을 수 있습니다.).
 * 버전 정보: 에이전트의 현재 버전 정보와 오픈소스 라이선스 및 개인정보 처리 방침을 확인할 수 있습니다.
 * 종료: 에이전트를 종료합니다.
+
+<br>
+
+## 에이전트 삭제하기
+
+에이전트는 사용자가 언제든지 직접 삭제할 수 있습니다.
+
+* Windows: 설정 > 앱 > 설치된 앱(앱 및 기능)에서 Cloud Access 선택 후 제거를 클릭하여 삭제
+* macOS: Finder > 응용 프로그램 선택 후 Cloud Access를 휴지통으로 이동하여 삭제
+
+!!! danger "주의"
+    에이전트 삭제 시 Cloud Access 서비스 이용이 불가능하거나 제한될 수 있습니다.
