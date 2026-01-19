@@ -106,6 +106,9 @@ Cloud Accessサービスを利用するためのエージェントをダウン�
 | Windows(32bit)|1.1.0|[CloudAccess_Setup_x86](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/windows/installer/CloudAccess_Setup_x86.exe)|2025.11.11|
 |macOS|1.1.0|[CloudAccess_macOS](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_04c78c238ba54583bb1036b393ec6ae5/macos/CloudAccess%20Installer.dmg)|2025.11.11|
 
+!!! tip 「ポイント」
+    Cloud Accessエージェントは、ユーザー端末とサービス間のセキュリティ接続を通じて、外部環境からでも安全な内部サービスへのアクセスをサポートする専用プログラムです。
+
 <br>
 
 ## 接続設定
@@ -209,3 +212,15 @@ NHN Cloudリソースに接続するための項目を追加します。
 * お知らせ：通知内容表示（通知が設定されていない場合もあり）
 * バージョン情報：バージョン・ライセンス表示
 * 終了：エージェントを終了
+
+<br>
+
+## エージェントの削除
+
+エージェントはユーザーがいつでも直接削除できます。
+
+* Windows: 設定 > アプリ > インストールされているアプリ(アプリと機能)でCloud Accessを選択した後、アンインストールをクリックして削除
+* macOS: Finder > アプリケーションを選択した後、Cloud Accessをゴミ箱に移動して削除
+
+!!! danger "注意"
+    エージェント削除時、Cloud Accessサービスを利用できなくなるか、制限される場合があります。
